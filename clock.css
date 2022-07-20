@@ -1,0 +1,67 @@
+#title {
+	display: flex;
+	font-family: 'Courier New', Courier, monospace;
+	font-size: 60px;
+	text-align: center;
+	font-style: bold;
+	margin-left: 40%;
+	color: black
+}
+body {
+	background-color: #FFE4C4;
+}
+
+#clock {
+	Position : absolute;
+	height: 100vh;
+	width: 100%;
+	margin-bottom : 30px;
+	text-align: left;
+	align-items: left;
+	/* justify-content: left; */
+	font-size: 100px;
+	font-family: Orbitron;
+}
+ #clockContainer {
+	position: relative;
+	margin-left: 50%;
+	margin-right: 50%;
+	height: 40vw;
+	/*to make the height and width responsive*/
+    width: 40vw;
+	/* background: url(clock.jpg) no-repeat; */
+	background: url(images.jpg);
+	/*setting our background image*/
+	background-size: 100%;
+	background-color: black;
+	border-radius: 100%;
+	}
+#hour,
+#minute,
+#second {
+	position: absolute;
+	background: black;
+	border-radius: 10px;
+	transform-origin: bottom;
+}
+#hour {
+    width: 1.8%;
+    height: 25%;
+    top: 25%;
+    left: 48.85%;
+    opacity: 0.8;
+}
+#minute {
+    width: 1.6%;
+    height: 30%;
+    top: 19%;
+    left: 48.9%;
+    opacity: 0.8;
+}
+#second {
+    width: 1%;
+    height: 40%;
+    top: 9%;
+    left: 49.25%;
+    opacity: 0.8;
+}
